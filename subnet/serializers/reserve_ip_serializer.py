@@ -8,6 +8,8 @@ class ReservedIpSerializer(serializers.ModelSerializer):
         model = ReservedIp
         fields = '__all__'
 
+    # Check if ip is in range of subnet
+
     def validate(self, attrs):
         if attrs['ip'] == attrs['subnet'].network_id or attrs['ip'] == attrs['subnet'].broadcast_ip:
             raise serializers.ValidationError("You cant assign IP to reserved ips")

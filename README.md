@@ -72,6 +72,9 @@ IP_mangement
 │   │    │   ...
 │   │
 │   └──services (Helper functions)
+│   │
+│   │
+│   └──serializers (Model Serializer) 
 │
 │
 └───Dockerfile
@@ -83,3 +86,6 @@ IP_mangement
 ```
 ## Postman Collection
 https://www.getpostman.com/collections/c7d167465292e883c2ab
+
+## Serializers 
+  - Serializers allow complex data such as querysets and model instances to be converted to native Python data types that can then be easily rendered into JSON
