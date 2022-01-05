@@ -1,4 +1,4 @@
-#IP Management System
+# IP Management System
 
 ## Dependencies:
 
@@ -35,12 +35,12 @@ $ docker exec -it container_id python manage.py createsuperuser
 ```
 $ docker-compose up
 ```
-###Accessing admin portal
+### Accessing admin portal
   http://localhost:8000/admin
-###Accessing endpoints documentation
+### Accessing endpoints documentation
   http://localhost:8000/docs  
   
-##Files Structure
+## Files Structure
 Django is using MVC Design Pattern where 
   - Model is the database model
   - Views is the template
@@ -81,5 +81,5 @@ IP_mangement
 
 
 ```
-##Postman Collection
+## Postman Collection
 https://www.getpostman.com/collections/c7d167465292e883c2ab
